@@ -11,8 +11,7 @@ test('Greyt HR ', async ({ page }) => {
   // await page.locator('gt-button').getByRole('button', { name: 'Sign In' }).nth(1).click();
   // await page.locator('gt-button').getByRole('button', { name: /Sign/ }).nth(1).click();
 
-  await page.pause();
-
+      
 });
 
 
