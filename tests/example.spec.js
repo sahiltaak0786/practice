@@ -8,7 +8,7 @@ test('Greyt HR ', async ({ page }) => {
   await page.getByRole('button', { name: /Sign/ }).click();
   await page.locator('[class="toggle"]').first().click();
   await page.locator('[class="dropdown-item"]').nth(1).click();
-  await page.locator('gt-button').getByRole('button', { name: /Sign/ }).nth(1).click();      
+  //await page.locator('gt-button').getByRole('button', { name: /Sign/ }).nth(1).click();      
 });
 
 
